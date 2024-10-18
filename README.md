@@ -1,3 +1,26 @@
+# Employee Management Application - Frontend
+
+This project is an Angular 18 application designed for managing employee data. It interacts with a backend API to perform CRUD (Create, Read, Update, Delete) operations on Employee entities.
+
+## Features
+
+- Display a list of employees
+- Add new employees
+- Edit existing employee information
+- Delete employees
+- Responsive design using Angular Material or Bootstrap (if integrated)
+
+## Prerequisites
+
+Before running this application, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Angular CLI](https://angular.io/cli) globally installed. You can install it via npm:
+
+```bash
+npm install -g @angular/cli
+```
+
 # EmsFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
