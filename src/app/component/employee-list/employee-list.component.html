@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>Employees</h2>
+    <!-- <button class="btn btn-primary" (click)="addEmployee()">Add Employee</button> -->
+
+    <table class="table table-bordered table-striped mt-3">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Salary</th>
+          <th>Department</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employees">
+          <td>{{ employee.name }}</td>
+          <td>{{ employee.email }}</td>
+          <td>{{ employee.phone }}</td>
+          <td>{{ employee.salary }}</td>
+          <td>{{ employee.department }}</td>
+          <td>
+            <button class="btn btn-primary" (click)="editEmployee(employee)">View</button>           
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
