@@ -10,6 +10,10 @@ This project is an Angular 18 application designed for managing employee data. I
 - Delete employees
 - Responsive design using Angular Material or Bootstrap (if integrated)
 
+  ![Screenshot 2024-10-18 182132](https://github.com/user-attachments/assets/963d425d-2ff6-4b92-a28a-3cd2b8777f46)
+![Screenshot 2024-10-18 182215](https://github.com/user-attachments/assets/b9cb2668-0265-4853-83e1-6471aae76ad2)
+
+
 ## Prerequisites
 
 Before running this application, ensure you have the following installed:
